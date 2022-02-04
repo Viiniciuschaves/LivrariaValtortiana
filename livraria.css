@@ -1,0 +1,68 @@
+header{
+    border: 1px solid;
+    padding: 90px 1px;
+    border: 1px solid rgba(0,0,200,0.6);
+    background-image: url(imagens/images.jpg);
+    border-radius: 30px;
+    width: 100%;
+    margin:6px 6px 6px 6px; 
+}
+
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background: rgba(0, 0,200, 0.3);
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+    
+}
+
+li {
+    display: inline;
+    border-radius: 20%;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 15.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+li:last-child a {
+    margin-right: 0;
+}
+
+a:link, a:visited, a:focus {
+    background: rgba(0,0,200,0.3);
+}
+
+a:hover {
+    background: blue;
+}
+
+a:active {
+    background: rgba(0, 0,200, 0.3);
+    color: white;
+}
+
+form {
+    display: inline;
+    width: 20
+}
+
+img {
+    width: 15%;
+    border-radius: 12px;
+    
+}
+
